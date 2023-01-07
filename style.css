@@ -29,17 +29,43 @@ h2{
     font-weight: 700;
 }
 .bg-img{
-    background-image: url("../my-first-assignment/new-year-new-me/images/header_bg.png");
+    background-image: url("./images/header_bg.png");
     width: 500px;
     height: 600px;
-    border-radius: 70%;
+    border-radius: 70%; 
 }
 /* my plan this year */
 .skill-developed{
     margin: 130px;
+    padding: 100px;
 }
 .skill{
     display: flex;
     align-items: center;
     gap: 40px;
 }
+/* always keep a positive mindset part */
+.watch{
+    background-image:url("./images/watch.png") ;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin: 30px 40px;
+    padding: 80px;
+    }
+ .mindset{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+     }
+.btu{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ff5959;
+    background-color: white;
+}
+/* footer */
