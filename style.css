@@ -1,0 +1,45 @@
+.head-tag{
+    position: relative;
+    width: 1600px;
+    height: 850px;
+}
+.header-part{
+    position: absolute;
+    top: 0;
+    /* margin: 30px 40px;
+    text-align: center;
+    align-items: center;
+    padding: 300px 600px; */
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+}
+/* 2nd section about my failure*/
+.img-failure{
+    margin: 50px 100px;
+    padding: 40px 100px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.bg-img{
+    background-image: url("../my-first-assignment/new-year-new-me/images/header_bg.png");
+    width: 500px;
+    height: 600px;
+    border-radius: 70%;
+}
+/* my plan this year */
+.skill-developed{
+    margin: 130px;
+}
+.skill{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
